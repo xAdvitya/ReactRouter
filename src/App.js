@@ -1,9 +1,10 @@
-import { Route, Router } from 'react-router-dom';
+import { Route, Router, useParams } from 'react-router-dom';
 import Welcome from './pages/Welcome';
 import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
 import MainHeader from './components/MainHeader';
 import { Routes } from 'react-router-dom/dist';
+
 
 function App() {
   return (
