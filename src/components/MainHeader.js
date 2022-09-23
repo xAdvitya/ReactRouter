@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-
 import classes from './MainHeader.module.css';
 
 const MainHeader = () => {
@@ -8,12 +7,16 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            <NavLink activeClassName={classes.active} to='/welcome'>
+            <NavLink activeStyle={classes.active} to="/welcome">
               Welcome
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={classes.active} to='/products'>
+            <NavLink
+              activeClassName={classes.active}
+              activeStyle={classes.active}
+              to="/products"
+            >
               Products
             </NavLink>
           </li>
